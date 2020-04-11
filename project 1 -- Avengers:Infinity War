@@ -1,0 +1,86 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout << "LEVEL 1" << endl;
+    cout << "YOU ARE THANOS. YOUR MISSION IS TO FIND THE SPACE STONE" << endl;
+    int x;
+    cout << "STATE YOUR DESTINATION = (if you think it's earth, enter 1,if you think it's knowhere, enter 2) ";
+    cin >> x;
+    if(x == 1)
+    {
+        cout << "YOU WON'T FIND IT THERE" << endl;
+    }
+    else if(x == 2)
+    {
+        cout << "YOU WON'T FIND IT THERE" << endl;
+    }
+    else
+    {
+        cout << "IT IS IN ASGARD YOU FOOL" << endl;
+    }
+    cout << "MISSION ACCOMPLISHED" << endl;
+    cout << "LEVEL 2. YOUR MISSION IS TO AQUIRE THE REALITY STONE" << endl;
+    int y;
+    cout << "STATE YOUR DESTINATION = (if you think it's mars, enter1, if you think it's jupiter, enter 2 )";
+    cin >> y;
+    if(y == 1)
+    {
+        cout << "YOU WON'T IT THERE" << endl;
+    }
+    else if(y == 2)
+    {
+        cout << "YOU WON'T FIND IT THERE" << endl;
+    }
+    else
+    {
+        cout << "IT'S IN KNOWHERE YOU FOOL" << endl;
+    }
+    cout << "MISSION ACCOMPLISHED" << endl;
+    cout << "LEVEL 3. YOUR MISSION IS TO AQUIRE THE SOUL STONE" << endl;
+    string z;
+    cout << "HINT:THE SOUL STONE IS IN VORMIR" << endl;
+    cout << "WHO DO YOU WANT TO SACRIFICE ? = ";
+    cin >> z;
+    cout << "MISSION ACCOMPLISHED" << endl;
+    cout << "LEVEL 4. YOUR MISSION IS TO ACQUIRE THE POWER STONE" << endl;
+    int a;
+    cout << "STATE YOUR DESTINATION = (if its earth,enter 1, if its saturn, enter 2) ";
+    cin >> a;
+    if(a == 1)
+    {
+        cout << "YOU WONT FIND IT THERE";
+    }
+    else if(a == 2)
+    {
+        cout << "YOU WONT FIND IT THERE";
+    }
+    else
+    {
+        cout << "ITS IN XANDAR, YOU FOOL" << endl;
+    }
+    cout << "MISSION ACCOMPLISHED" << endl;
+    cout << "LEVEL 5.YOUR MISSION IS TO FIND THE TIME STONE." << endl;
+    cout << "IT IS AT HOME" << endl;
+    string b;
+    cout << "WHO DO YOU THINNK HAS THE TIME STONE = ";
+    cin >> b;
+    cout << "MISSION ACCOMPLISHED" << endl;
+    cout << "LEVEL 6. YOUR MISSION IS TO FIND THE MIND STONE" << endl;
+    cout << "IT IS ON EARTH" << endl;
+    string c;
+    cout << "WHO DO YOU THINK HAS THE MIND STONE = ";
+    cin >> c;
+    cout << "MISSION ACCOMPLISHED.YOU'VE FINISHED THE GAME. YOU'RE THE MOST POWERFUL CREATURE IN THE UNIVERSE. TIME TO SNAP" << endl;
+    int won = 1269;
+    while(won > 0)
+    {
+        cout << "YOU WON!!!" << endl;
+        won = won + 1;
+    }
+
+
+    return 0;
+}
