@@ -1,0 +1,78 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    string name;
+    int num;
+    do
+    {
+        cout << "WELCOME TO THE KINGSMEN SECRET SERVICE COUNCIL MEETING!!!" << endl;
+    }
+    while(num <= 10);
+    {
+        cout << "Enter your name = ";
+        cin >> name;
+        cout << "WELCOME AGENT " << name << endl;
+    }
+    int ID;
+    int face;
+    int thumb;
+    int retina;
+    int password;
+    cout << "ENTER YOUR ID NUMBER = ";
+    cin >> ID;
+    if(ID == 2001)
+    {
+        cout << "ID is verified. You may proceed" << endl;
+        cout << "ENTER FACE RECOGNITION = ";
+        cin >> face;
+        if(face == 2002)
+        {
+            cout << "FACE RECOGNITION is verified. you may proceed" << endl;
+            cout << "ENTER THUMB RECOGNITION = ";
+            cin >> thumb;
+            if(thumb == 2003)
+            {
+                cout << "FINGERPRINT SCANNER is verified. you may proceed" << endl;
+                cout << "ENTER RETINA SCANNING = ";
+                cin >> retina;
+                if(retina == 2004)
+                {
+                    cout << "RETINA is verified. you may proceed. please type in the secret meeting password = " << endl;
+                    cin >> password;
+                    if(password == 2007)
+                    {
+                        cout << "WELCOME TO THE MEETING, AGENT " << name << endl;
+                    }
+                    else
+                    {
+                        cout << "you are being placed under arrest. hands up" << endl;
+                    }
+
+                }
+                else
+                {
+                cout << "please remain seated until formal notice" << endl;
+                }
+
+            }
+            else
+            {
+                cout << "please remain seated until formal notice" << endl;
+            }
+
+        }
+        else
+        {
+        cout << "please remain seated until formal notice" << endl;
+        }
+
+
+    }
+    else
+    {
+        cout << "please remain seated until formal notice" << endl;
+    }
+
+}
