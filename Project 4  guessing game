@@ -1,0 +1,54 @@
+#include <iostream>
+#include <ctime>
+#include <cstdlib>
+using namespace std;
+
+int main()
+{
+    int age, money;
+    cout << "enter age = " << endl;
+    cin >> age;
+    cout << "enter money = " << endl;
+    cin >> money;
+    switch(age)
+    {
+    case 16:
+        cout << "not allowed " << endl;
+        break;
+    case 18:
+        cout << "give me proof" << endl;
+        break;
+    case 21:
+        cout << "give me proof" << endl;
+        break;
+    default:
+        cout << "get in fast! you're not the only one here" << endl;
+    }
+    if(age > 16 && money > 1000)
+    {
+        cout << "you are allowed to gamble" << endl;
+    }
+
+    srand(time(0));
+    int random = rand()%100+20;
+    int guess = 0;
+    int moves = 0;
+    do
+    {
+       cout << "enter your guess = ";
+       cin >> guess;
+       if(guess == random)
+       {
+           cout << "congrats! right guess" << endl;
+       }
+       else if(guess > random)
+       {
+           cout << "enter a lower number\n";
+       }
+       else
+       {
+           cout << "enter a higher number\n";
+       }
+    }
+    while(guess != random);
+}
